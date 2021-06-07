@@ -16,11 +16,25 @@ module.exports = {
 		'@typescript-eslint',
 	],
 	rules: {
+		'linebreak-style': 'off',
 		indent: [
 			'error',
 			'tab',
 		],
+		'import/extensions': [
+			'error',
+			'ignorePackages',
+			{
+				js: 'never',
+				ts: 'never',
+			},
+		],
 		'no-shadow': 'off',
 		'no-tabs': 'off',
+	},
+	settings: {
+		'import/resolver': {
+			typescript: {},
+		},
 	},
 };
