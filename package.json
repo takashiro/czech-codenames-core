@@ -1,6 +1,6 @@
 {
   "name": "@karuta/codenames-core",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Common modules of Codenames",
   "main": "dist",
   "scripts": {
